@@ -1,0 +1,316 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Tue May 06 2025 01:58:53 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="client-first-b8bd39.webflow.io" data-wf-page="67e3f6377d7d0eabb24b16c6" data-wf-site="67e3f6367d7d0eabb24b166b" data-wf-status="1" lang="en"><head><meta charset="utf-8"/><title>NexxStudio Design | Premium Web Design for SaaS &amp; Tech Companies</title><meta content="NexxStudio designs fast, simple websites for SaaS and tech businesses—built to grow, built to convert, and built to push your brand forward." name="description"/><meta content="NexxStudio Design | Premium Web Design for SaaS &amp; Tech Companies" property="og:title"/><meta content="NexxStudio designs fast, simple websites for SaaS and tech businesses—built to grow, built to convert, and built to push your brand forward." property="og:description"/><meta content="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e43fae3a6018a9ff6a2565_logo-profile.png" property="og:image"/><meta content="NexxStudio Design | Premium Web Design for SaaS &amp; Tech Companies" property="twitter:title"/><meta content="NexxStudio designs fast, simple websites for SaaS and tech businesses—built to grow, built to convert, and built to push your brand forward." property="twitter:description"/><meta content="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e43fae3a6018a9ff6a2565_logo-profile.png" property="twitter:image"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/css/client-first-b8bd39.webflow.shared.07624073d.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67ec8d81d52fd02665c7cb53_favicon-32x32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67ec8e0640aafeee448bc636_logo-profilex%20(1).png" rel="apple-touch-icon"/></head><body class="body"><div class="page-wrapper"><div class="global-styles w-embed"><style>
+
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Set color style to inherit */
+.inherit-color * {
+    color: inherit;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+</style></div><div data-w-id="3d74ee5a-af68-e396-efc4-38878ef99e26" class="nav_fixed"><div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav_component w-nav"><div class="padding-global-copy"><div class="nav_container"><a href="/" aria-current="page" class="nav_brand w-nav-brand w--current"><img src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e43fd36464aa8ddf7b636e_white-logo.png" loading="lazy" sizes="(max-width: 479px) 98vw, (max-width: 767px) 99vw, (max-width: 1140px) 100vw, 1140px" srcset="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e43fd36464aa8ddf7b636e_white-logo-p-500.png 500w, https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e43fd36464aa8ddf7b636e_white-logo.png 1140w" alt="" class="nav_logo"/></a><nav role="navigation" class="nav_menu w-nav-menu"><a href="#section-trust" class="nav_menu_link w-nav-link">Services</a><a href="#section-testimonial" class="nav_menu_link w-nav-link">Case studies</a><a href="#section-faqs" class="nav_menu_link w-nav-link">FAQs</a><a href="#vidio-vsl" class="nav_menu_link w-nav-link">About</a></nav><div class="nav_button w-nav-button"><div class="w-icon-nav-menu"></div></div><a data-w-id="0aa02004-4060-6fe2-b38f-46065848b3e9" href="https://tally.so/r/w2oQaM" target="_blank" class="button is-nav w-button">Get in touch</a></div></div></div></div><main class="main-wrapper"><div class="scroll-wrap"><div class="scroll-target"><section class="section_hero"><div class="padding-global padding-section-large"><div class="container-large"><div class="hero_grid"><div id="w-node-f63cbc6a-01b0-c56e-95d4-065080c06ed5-b24b16c6" class="hero_content"><h1 class="hero_heading"><strong>We Design for SaaS &amp; B2B</strong></h1><p class="text-size-medium max-width-medium">We design websites that build trust, drive demo signups, and help SaaS &amp; B2B companies scale with confidence.</p><div class="button-group2"><img src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e442734bf179e8ba09ce91_Authentic-logo.png" loading="lazy" width="54" style="-webkit-transform:translate3d(0px, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, null, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" alt="authentic mark" data-w-id="57a8518f-82d4-c271-d19f-47d089081b56" class="image"/><a data-w-id="c747430c-3f9a-9552-f7b6-f3e608963aa7" href="https://tally.so/r/w2oQaM" target="_blank" class="button is-icon w-inline-block"><div class="text-block">Work with us </div><div class="icon-1x1-small w-embed"><svg aria-hidden="true" fill='currentColor' role="img" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg"><title>Arrow Right</title><polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"/></svg></div></a></div></div></div></div></div><div class="logos-marquee"><div class="embed w-embed"><style>
+
+/* Animation for the first right to left marquee */
+@keyframes slide {
+  0% {
+    transform: translateX( calc(0% + 50px));
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.logo-animate {
+  animation: slide 35s infinite linear; /* Adjust the seconds for a slower or faster animation */
+}
+
+/* Animation for the second left to right marquee */
+@keyframes slidealt {
+  0% {
+    transform: translateX( calc(0% + 50px));
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.logo-animate-alt {
+  animation: slidealt 35s infinite linear; /* Adjust the seconds for a slower or faster animation */
+  animation-direction: reverse;
+}
+
+
+</style></div><div class="overline">we work with world&#x27;s top companies</div><div class="home-logo-wrapper"><div class="clients-grid logo-animate"><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489b5-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c1_Frame%2018608.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489b6-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c2_deloitte.svg" class="client-logo"/><img loading="eager" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bc_Amazon%20logo.svg" alt="" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489b8-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bf_Frame%2018610.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489b9-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7be_Frame%2018611.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489ba-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7ba_Frame%2018612.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489bb-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bb_EY.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489bc-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7b9_toyota.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489bd-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c0_Frame%2018608.svg" class="client-logo"/><img loading="eager" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bd_airbus.svg" alt="" class="client-logo"/></div><div class="clients-grid logo-animate"><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489c0-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c1_Frame%2018608.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489c1-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c2_deloitte.svg" class="client-logo"/><img loading="eager" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bc_Amazon%20logo.svg" alt="" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489c3-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bf_Frame%2018610.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489c4-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7be_Frame%2018611.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489c5-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7ba_Frame%2018612.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489c6-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bb_EY.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489c7-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7b9_toyota.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489c8-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c0_Frame%2018608.svg" class="client-logo"/><img loading="eager" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bd_airbus.svg" alt="" class="client-logo"/></div><div class="clients-grid logo-animate"><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489cb-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c1_Frame%2018608.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489cc-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c2_deloitte.svg" class="client-logo"/><img loading="eager" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bc_Amazon%20logo.svg" alt="" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489ce-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bf_Frame%2018610.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489cf-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7be_Frame%2018611.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489d0-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7ba_Frame%2018612.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489d1-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bb_EY.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489d2-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7b9_toyota.svg" class="client-logo"/><img id="w-node-a2e2360a-31bd-1a37-ae48-97da480489d3-b24b16c6" loading="eager" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7c0_Frame%2018608.svg" class="client-logo"/><img loading="eager" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e4499804da5237288cd7bd_airbus.svg" alt="" class="client-logo"/></div><div class="home-logo-left-gradient"></div><div class="home-logo-left-gradient right"></div></div></div></section><div class="lottie-animation" data-w-id="90653a3d-d5da-a03b-24ae-3203e3e98f08" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e501927bedb14c0fcddc22_Animation%20-%201743061222407.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="8.958858606956325" data-duration="0"></div></div><div class="scroll-trigger"></div></div><section class="section_portfolio"><div class="cursor"><div class="cursor-dot"></div><div class="cursor-circle"></div><div class="w-embed"><style>
+body:hover .cursor {opacity:1.0;}
+.cursor {pointer-events: none;}
+</style></div></div><section data-w-id="faa9e268-79d1-fdf4-acb5-0a216ceb566f" class="images-scrolling"><div class="content-wrap"><div id="w-node-b98965da-624c-4588-4730-32df3b93bc42-b24b16c6" class="hero_content"><div class="text-weight-xbold">See the Impact</div><h2 class="heading-2-copy">Results We Deliver</h2></div></div><div class="scroll-sec-box"><div class="scroll-top-box"><div class="image-card"><div class="scroll-image-4"></div></div><div class="image-card"><div class="scroll-image-1"></div></div><div class="image-card"><div class="scroll-image-3"></div></div><div class="image-card"><div class="scroll-image-6 center"></div></div></div><div class="scroll-top-box-v2"><div class="image-card"><div class="scroll-image-4"></div></div><div class="image-card"><div class="scroll-image-5"></div></div><div class="image-card"><div class="scroll-image-2"></div></div><div class="image-card"><div class="scroll-image-2-4"></div></div></div><div class="scroll-top-box-v3"><div class="image-card"><div class="scroll-image-3-1"></div></div><div class="image-card"><div class="scroll-image-3-2"></div></div><div class="image-card"><div class="scroll-image-3-4"></div></div><div class="image-card"><div class="scroll-image-3-3"></div></div></div></div></section></section><section id="vidio-vsl" data-w-id="e178a164-17ff-065f-853d-9334f3762eb3" class="section-video"><div class="padding-global"><div class="container-large"><div class="w-layout-grid wrapper-grid"><div class="quote-wrapper"><div class="quote-card"><div class="quote"><div id="w-node-_299f0c63-8e05-7f9d-bcae-e94f24cd4803-b24b16c6" class="card-head"><a data-w-id="299f0c63-8e05-7f9d-bcae-e94f24cd4807" href="#" class="quote-img is-icon-copy w-inline-block"></a><h2 class="heading-7"><strong class="quote-name">Aymane from nexxStudio<br/></strong><span class="text-span">@aymanesarghini</span></h2></div><p id="w-node-_299f0c63-8e05-7f9d-bcae-e94f24cd4809-b24b16c6" class="text-size-small-quote">How we help SaaS owners and B2B companies build premium websites that drive growth.<br/>...</p><div id="w-node-_299f0c63-8e05-7f9d-bcae-e94f24cd480b-b24b16c6" class="button-group"><div class="roles"><p class="text-role-small">12:30 PM · Mar 30 ·nexx-studio.com</p></div></div></div></div></div><div class="container-3"><div id="video-wrapper" data-w-id="fedd8d72-c34f-6f70-b696-00f007f0e584" class="video-wrapper"><div class="autoplay-code w-embed w-script"><script>
+document.addEventListener("DOMContentLoaded", function () {
+  const VIDEO_WRAPPER = document.getElementById("video-wrapper"); 
+  const VIDEO_EMBED = document.getElementById("video-embed");
+  const VIDEO_THUMBNAIL = document.getElementById("video-thumbnail"); // add this ID in Webflow
+
+  VIDEO_WRAPPER.addEventListener("click", () => {
+    const IFRAME = VIDEO_EMBED.getElementsByTagName("iframe")[0];
+    const VIDEO_SOURCE = IFRAME.src;
+
+    // Hide thumbnail and play icon
+    if (VIDEO_THUMBNAIL) VIDEO_THUMBNAIL.style.display = "none";
+
+    if (VIDEO_SOURCE.includes("autoplay=0")) {
+      IFRAME.src = VIDEO_SOURCE.replace("autoplay=0", "autoplay=1");
+    } else {
+      IFRAME.src = VIDEO_SOURCE + "&autoplay=1";
+    }
+  });
+});
+</script></div><div id="video-thumbnail" title="Play Video" class="video-thumbnail"><img sizes="(max-width: 991px) 100vw, 992px" srcset="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/6818adeb057c5328a247249d_Screenshot%202025-05-05%20at%201.19.34%E2%80%AFPM-p-500.avif 500w, https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/6818adeb057c5328a247249d_Screenshot%202025-05-05%20at%201.19.34%E2%80%AFPM.avif 992w" alt="Triangle behind a mountain range made with structural grid like texture" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/6818adeb057c5328a247249d_Screenshot%202025-05-05%20at%201.19.34%E2%80%AFPM.avif" loading="lazy" class="thumbnail"/><div class="play-icon w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path class="stroke-solid" fill="none" stroke="currentColor" d="M49.9 2.5C23.6 2.8 2.1 24.4 2.5 50.4 2.9 76.5 24.7 98 50.3 97.5c26.4-.6 47.4-21.8 47.2-47.7-.2-26.1-21.8-47.5-47.6-47.3"/><path class="stroke-dotted" fill="none" stroke="currentColor" d="M49.9 2.5C23.6 2.8 2.1 24.4 2.5 50.4 2.9 76.5 24.7 98 50.3 97.5c26.4-.6 47.4-21.8 47.2-47.7-.2-26.1-21.8-47.5-47.6-47.3"/><path class="icon" fill="currentColor" d="M38 69c-1 .5-1.8 0-1.8-1.1V32.1c0-1.1.8-1.6 1.8-1.1l34 18c1 .5 1 1.4 0 1.9L38 69z"/></svg>
+
+
+<style>
+
+.stroke-dotted {
+    opacity: 0;
+    stroke-dasharray: 1,3.14;
+    stroke-width: .0625rem;
+    transform-origin: 50% 50%;
+    -webkit-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+    transition: opacity 1s ease, stroke-width 1s ease
+}
+
+.stroke-solid {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 300;
+    stroke-width: .1875rem;
+    transition: stroke-dashoffset 1s ease, opacity 1s ease
+}
+
+.icon {
+    transform-origin: 50% 50%;
+    transition: transform .3s ease-out
+}
+
+.video-thumbnail:hover .stroke-dotted {
+    stroke-width: .25rem;
+    opacity: 1
+}
+
+.video-thumbnail:hover .stroke-solid {
+    opacity: 0;
+    stroke-dashoffset: 300
+}
+
+.video-thumbnail:hover .icon {
+    transform: scale(1.1)
+}
+
+.video-thumbnail:hover .thumbnail {
+    opacity: .7;
+    transform: scale(1.1)
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+</style></div></div><div id="video-embed" class="video-embed w-embed w-script"><script src="https://fast.wistia.com/player.js" async></script><script src="https://fast.wistia.com/embed/khv5s0cv5f.js" async type="module"></script><style>wistia-player[media-id='khv5s0cv5f']:not(:defined) { background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/khv5s0cv5f/swatch'); display: block; filter: blur(5px); padding-top:0%; }</style> <wistia-player media-id="khv5s0cv5f" wistia-popover="true" aspect="1.7777777777777777"></wistia-player></div></div></div></div></div></div></section><div class="footer-divider"></div><section id="section-trust" data-w-id="cc470047-9191-9f58-971c-c585c24acdbb" class="section-trust"><div class="padding-global"><div class="container-large"><div class="div-block-3"><div class="w-layout-grid trust-grid"><div id="w-node-e6808670-79a5-0026-4d66-d2535d18777c-b24b16c6"><h2 data-w-id="82d2ab90-99bf-5ece-7918-0275bb00cce2" class="heading-2">Nexx builds websites for SaaS and Tech businesses that push them forward.</h2></div><div id="w-node-b21bc63e-e067-b372-afdf-443bf7a7a58f-b24b16c6" data-w-id="b21bc63e-e067-b372-afdf-443bf7a7a58f" style="-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="small-about-wrap"><div data-w-id="cffce73e-952e-8652-b4ca-c4e8e29c1728" class="about-img-wrapper"><a href="#" class="about w-inline-block"><div class="about-img"></div></a></div><div class="button-group-about"><div class="learn-more-text">Learn more about us</div><a data-w-id="b18a07fb-4e01-199a-920b-ab166f4b5cb2" href="#" class="link is-icon-copy icon-1x1-small-copy w-inline-block"><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0)" class="icon-1x1-small-about w-embed"><svg aria-hidden="true" fill='currentColor' role="img" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg"><title>Arrow Right</title><polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"/></svg></div></a></div></div></div><div class="w-layout-grid whyus-grid"><div id="w-node-_557a4923-1dd2-5487-0437-6966d1132cd4-b24b16c6" class="padding-left"></div><div id="w-node-f7bcbbb7-deb3-b90d-3223-1fc050cbbd43-b24b16c6" data-w-id="f7bcbbb7-deb3-b90d-3223-1fc050cbbd43" style="opacity:0" class="whyus-content"><div id="w-node-_2681714d-a20d-3b5c-7260-625bf56b8e3e-b24b16c6" class="card-wrapper"><div class="card-icon1"><div data-w-id="29665b95-a021-9a67-7999-1980f5975143" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67ecc146f879b9893a59cd39_wired-outline-1326-command-window-line-hover-blinking.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1.5" data-duration="0"></div></div><div class="text-content"><h3 class="heading-3">Custom Designs, No Templates.</h3><p class="text-size-card">We create unique websites from scratch that match your brand and meet your audience’s needs.</p></div></div><div id="w-node-_671bbbd5-8667-7908-b426-5f42be61740a-b24b16c6" class="card-wrapper"><div class="card-icon2"><div data-w-id="f59d35b3-5d63-d6fc-b3a8-29f84ba15f33" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67ecc14635a8a8c8765f67c6_wired-outline-1388-page-view-quilt-hover-layout.json" data-loop="1" data-direction="-1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1" data-duration="3"></div></div><div class="text-content"><h3 class="heading-3">CRO-Optimized Design</h3><p class="text-size-card">Your website will follow the latest CRO trends, making sure it turns visitors into customers by being clear, persuasive, and easy to use.</p></div></div><div id="w-node-e3ae0ca6-136d-1cb9-a128-a803155ffe5a-b24b16c6" class="card-wrapper"><div class="card-icon3"><div data-w-id="d85cd443-bfcf-c1af-2181-0718edb41d61" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67ecc2b6e8c28a64432ae1c9_wired-outline-1325-code-fork-hover-pinch.json" data-loop="1" data-direction="-1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="2.566666666666667" data-duration="0"></div></div><div class="text-content"><h3 class="heading-3">Go-To-Market Fast</h3><p class="text-size-card">We focus on fast website launches so you can get your business into the market quickly and start growing.</p></div></div><div id="w-node-a6ad579b-a698-a996-a6a8-f1f82d3a055d-b24b16c6" class="card-wrapper"><div class="card-icon4"><div data-w-id="0c1b03bd-b964-6dab-6b5b-d43e12b5f226" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67ecc56c618ad39b906b5ca1_wired-outline-680-it-developer-hover-pinch.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="1.25" data-duration="0"></div></div><div class="text-content"><h3 class="heading-3"> SaaS and B2B </h3><p class="text-size-card">We specialize in creating websites for SaaS and b2b tech companies, designed to build your growth.</p></div></div><div id="w-node-a625e40f-7c0e-ce34-226d-e01e29aa37c0-b24b16c6" class="card-wrapper"><div class="card-icon-4"><div data-w-id="b49c199c-af17-c5aa-4ec9-a67243def67a" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67ecc6cb35a8a8c87663358d_zVj46cRjqO.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="0" data-duration="0"></div></div><div class="text-content"><h3 class="heading-3"> No-Code Dev</h3><p class="text-size-card">We use Webflow or Framer to build fast, responsive websites . Both platforms help you launch quickly and stand out.</p></div></div><div id="w-node-_1ecc9e02-afae-1188-f76f-519310471a71-b24b16c6" class="card-wrapper"><div class="card-icon"><div class="lottie-animation-8" data-w-id="4c1217fa-ed6a-e600-3eb2-1ac5f13671a3" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67ecc7e82b4c00878247c513_WRbsf1nJFS%20(1).json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="0" data-duration="4.016666666666667"></div></div><div class="text-content"><h3 class="heading-3">AI Integration</h3><p class="text-size-card">Add AI feature and automations, like personalized recommendations and chatbots to improve user experience and boost conversions on your site.</p></div></div></div></div></div></div></div></section><section class="section_doneright"><div class="lottie-animation" data-w-id="8de17474-0107-7919-c299-4435cdf52b97" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e501927bedb14c0fcddc22_Animation%20-%201743061222407.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="8.958858606956325" data-duration="0"></div><div class="padding-global padding-section-large-done"><div class="container-large"><div id="w-node-_70770e9c-3c80-9eb8-7e43-8e3a9b7aaea2-b24b16c6" class="circle-content"><div id="w-node-_0ac61035-0ce6-ae02-5d5f-a441c87721a8-b24b16c6" class="circle-top"><div class="circle-text">Design</div></div><div class="circle-left"><div class="circle-text">Development</div></div><div class="circle-right"><div class="circle-text">Copywriting</div></div></div></div></div><div class="nexx-advantange"><div class="text-weight-xbold">NEXX Studio Advantage</div><h2 class="heading-2">Your Website, Done Right.</h2></div><div class="home-logo-up-gradient"></div><div class="home-logo-down-gradient"></div></section><section class="section_cta"><div class="padding-global padding-section-large"><div class="container-large"><div class="hero_grid"><div id="w-node-_112a0b4e-b441-e553-0755-e6b6e64d4c69-e64d4c65" class="cta-content"><h3 class="cta-heading">Book Your Free 30-Min Discovery Call</h3><p class="cta-text">During this call we do a quick intro and discuss your project and its specific needs.</p><div class="button-group"><a data-w-id="584e8b1d-4b6c-53b0-e208-66d1be51b4b8" href="https://tally.so/r/w2oQaM" target="_blank" class="button is-bookcall w-inline-block"><div class="text-block">Book a call</div><div class="icon-1x1-small w-embed"><svg aria-hidden="true" fill='currentColor' role="img" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg"><title>Arrow Right</title><polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"/></svg></div></a></div><p class="text-size-tiny">No credit card required. Just a conversation.</p></div></div></div></div></section><section class="section_open-role"><div class="padding-global padding-section-large-copy"><div class="container-large"><div class="hero_grid-copy"><div id="w-node-_1761385a-5bec-dab5-90d5-9b02ab26c642-ab26c63e" class="open-wrapper"><div class="text-size-large text-weight-semibold">Open Roles</div><div class="text-size-small">Open positions in our team</div></div><div id="w-node-_1761385a-5bec-dab5-90d5-9b02ab26c647-ab26c63e" class="cta-role"><div id="w-node-_1761385a-5bec-dab5-90d5-9b02ab26c648-ab26c63e" class="openrole-group"><h5 id="w-node-_1761385a-5bec-dab5-90d5-9b02ab26c649-ab26c63e"><strong class="heading">Figma Web Designer</strong></h5><a data-w-id="1761385a-5bec-dab5-90d5-9b02ab26c64c" href="#" class="link is-icon-copy w-inline-block"><div class="icon-1x1-small-1 w-embed"><svg aria-hidden="true" fill='currentColor' role="img" viewBox="0 0 20 21" xmlns="http://www.w3.org/2000/svg"><title>Arrow Right</title><polygon points="16.172 9 10.101 2.929 11.515 1.515 20 10 19.293 10.707 11.515 18.485 10.101 17.071 16.172 11 0 11 0 9"/></svg></div></a></div><p id="w-node-_1761385a-5bec-dab5-90d5-9b02ab26c64e-ab26c63e" class="text-size-small">As a (freelance) Web Designer, you&#x27;ll be responsible for crafting visually stunning and user-friendly websites using Figma.</p><div id="w-node-_1761385a-5bec-dab5-90d5-9b02ab26c650-ab26c63e" class="button-group"><div class="roles"><img src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e8592d6db0d783f9551f54_clock.svg" loading="lazy" width="24" alt="" class="image-role"/><p class="text-role-small">Part Time</p></div><div class="roles"><img src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e8592d91749531807020e0_map-pin.svg" loading="lazy" alt="" class="image-role"/><p class="text-role-small">Remote</p></div></div></div></div></div></div></section><section id="section-faqs" class="section-faq"><div class="padding-global--faq"><div class="container-large"><div class="content-wrap"><div id="w-node-_5237dc45-547e-4f59-2664-27a2645f03dd-b24b16c6" class="hero_content"><div class="text-weight-xbold">FAQ</div><h2 class="heading-2 faq-h">Frequently Asked <br/>Questions<br/></h2></div></div><div data-w-id="570d2fda-ef07-d3f1-71d5-fff0d9e3a9e2" style="opacity:0" class="cloneable-container-default"><div class="accordion-item-wrapper---brix preview-page"><div data-w-id="570d2fda-ef07-d3f1-71d5-fff0d9e3a9e4" style="border-color:rgba(0,0,0,0)" class="accordion-item---brix accordion-1---brix"><div class="accordion-trigger---brix"><div class="accordion-item-title---brix">What&#x27;s your design process?</div><div style="background-color:rgb(255,255,255)" class="accordion-arrow-wrap---brix"><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0)" class="accordion-arrow-wrapper---brix"><div class="arrow-line---brix _2---brix"></div><div class="arrow-line---brix _1---brix"></div></div></div></div><div style="height:0px;-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="accordion-content---brix"><p class="accordion-paragraph---brix">We start by understanding your goals, then create wireframes and prototypes for feedback. After approval, we design and develop the final site.</p></div></div><div data-w-id="570d2fda-ef07-d3f1-71d5-fff0d9e3a9ef" style="border-color:rgba(0,0,0,0)" class="accordion-item---brix accordion-1---brix"><div class="accordion-trigger---brix"><div class="accordion-item-title---brix">How long will it take to finish my project?</div><div style="background-color:rgb(255,255,255)" class="accordion-arrow-wrap---brix"><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0)" class="accordion-arrow-wrapper---brix"><div class="arrow-line---brix _2---brix"></div><div class="arrow-line---brix _1---brix"></div></div></div></div><div style="height:0px;-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="accordion-content---brix"><p class="accordion-paragraph---brix">It typically takes 4 to 8 weeks, depending on the complexity of the project.</p></div></div><div data-w-id="570d2fda-ef07-d3f1-71d5-fff0d9e3a9fa" style="border-color:rgba(0,0,0,0)" class="accordion-item---brix accordion-1---brix"><div class="accordion-trigger---brix"><div class="accordion-item-title---brix">Can you use my existing brand guide?</div><div style="background-color:rgb(255,255,255)" class="accordion-arrow-wrap---brix"><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0)" class="accordion-arrow-wrapper---brix"><div class="arrow-line---brix _2---brix"></div><div class="arrow-line---brix _1---brix"></div></div></div></div><div style="height:0px;-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="accordion-content---brix"><p class="accordion-paragraph---brix">We can work with your brand guide to ensure the design stays consistent with your style.</p></div></div><div data-w-id="570d2fda-ef07-d3f1-71d5-fff0d9e3aa05" style="border-color:rgba(0,0,0,0)" class="accordion-item---brix accordion-1---brix"><div class="accordion-trigger---brix"><div class="accordion-item-title---brix">Will my site work on mobile?</div><div style="background-color:rgb(255,255,255)" class="accordion-arrow-wrap---brix"><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0)" class="accordion-arrow-wrapper---brix"><div class="arrow-line---brix _2---brix"></div><div class="arrow-line---brix _1---brix"></div></div></div></div><div style="height:0px;-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="accordion-content---brix"><p class="accordion-paragraph---brix">All our designs are mobile-friendly and will look great on any device.</p></div></div><div data-w-id="3f0a31a5-c514-10e3-241d-49be8e59f9bd" style="border-color:rgba(0,0,0,0)" class="accordion-item---brix accordion-1---brix"><div class="accordion-trigger---brix"><div class="accordion-item-title---brix">Do you optimize for SEO?</div><div style="background-color:rgb(255,255,255)" class="accordion-arrow-wrap---brix"><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0)" class="accordion-arrow-wrapper---brix"><div class="arrow-line---brix _2---brix"></div><div class="arrow-line---brix _1---brix"></div></div></div></div><div style="height:0px;-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="accordion-content---brix"><p class="accordion-paragraph---brix">We ensure all websites are SEO-friendly, helping them rank better on search engines.</p></div></div><div data-w-id="d0fba3e0-f52c-d20d-a1c8-154c42d0720d" style="border-color:rgba(0,0,0,0)" class="accordion-item---brix accordion-1---brix"><div class="accordion-trigger---brix"><div class="accordion-item-title---brix">Do you integrate AI and automation into my project?</div><div style="background-color:rgb(255,255,255)" class="accordion-arrow-wrap---brix"><div style="-webkit-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(90deg) skew(0, 0)" class="accordion-arrow-wrapper---brix"><div class="arrow-line---brix _2---brix"></div><div class="arrow-line---brix _1---brix"></div></div></div></div><div style="height:0px;-webkit-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.9, 0.9, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="accordion-content---brix"><p class="accordion-paragraph---brix">We can integrate AI tools and automation features to enhance your site’s functionality and improve user experience.</p></div></div></div></div></div></div></section><section class="section-question pd-120px bg-neutral-200"><div class="w-layout-blockcontainer container-2 w-container"><div class="inner-container _595px center"><div class="code-embed w-embed w-script"><script>
+// Wait for the DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Add a click event listener to the "api-action" element
+    document.getElementById('api-action').addEventListener('click', function() {
+        // Get the content from the "api-content" element
+        var codeContent = document.getElementById('api-content').innerText;
+        // Call the function to copy the text to the clipboard
+        copyTextToClipboard(codeContent);
+    });
+
+    // Function to copy text to the clipboard
+    function copyTextToClipboard(text) {
+        // Create a temporary textarea element
+        var tempTextarea = document.createElement('textarea');
+        tempTextarea.value = text;
+        document.body.appendChild(tempTextarea);
+
+        // Select the text in the temporary textarea
+        tempTextarea.select();
+        // Copy the selected text to the clipboard
+        document.execCommand('copy');
+
+        // Remove the temporary textarea element
+        document.body.removeChild(tempTextarea);
+    }
+});
+</script></div><div data-w-id="e3ff3fdf-7076-bd52-6c3e-84c0cc9bf430" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.92, 0.92, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.92, 0.92, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.92, 0.92, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.92, 0.92, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="card-copy"><div class="lottie-animation-6" data-w-id="a3bfcef7-2511-027a-b329-70ca5eea87c4" data-animation-type="lottie" data-src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e6597fc1f54b059c33b871_v4Zf90ItoI.json" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="5.033333333333333" data-duration="0"></div><div class="inner-container _360px"><h3 class="heading-3">Still Got Any Questions?</h3></div><p class="text-align-center">Leave us a message or book a free discovery call</p><div class="button-group"><div class="share-card small"><div class="position-relative"><img data-w-id="1181b95f-d3bd-f829-c3fe-0fc170a9f3a1" id="api-action" alt="" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e658540b42811445e429c0_copy.svg" loading="eager" class="click-icon"/><div data-w-id="1181b95f-d3bd-f829-c3fe-0fc170a9f3a2" style="opacity:0;-webkit-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(0.95, 0.95, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="tooltip"><div>Copied!</div><img loading="eager" src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e656ba6927b77524abc765_copy-to-clipboard-webflow-cloneable-arrow.svg" alt="tooltip" class="arrow-tooltip"/></div></div><div id="api-content" class="copy-to-clipboard---api">Contact@nexx-studio.com</div></div></div></div></div></div></section></main><div class="scroll-wrap"><div class="scroll-target"><section class="footer"><div class="container"><div class="footer-wrapper-two"><a id="w-node-_748ad2c9-f08b-a2cd-be75-8f9284d810ea-84d810e7" href="#" class="footer-brand w-inline-block"><img src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e43fd36464aa8ddf7b636e_white-logo.png" loading="lazy" width="458" sizes="(max-width: 479px) 100vw, 458px" alt="" srcset="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e43fd36464aa8ddf7b636e_white-logo-p-500.png 500w, https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/67e43fd36464aa8ddf7b636e_white-logo.png 1140w"/></a><div class="footer-block-two"><div class="footer-title">Sitemap</div><a href="#" class="footer-link-two">Home</a><a href="#" class="footer-link-two">Resources</a><a href="#" class="footer-link-two">Case studies</a><a href="#" class="footer-link-two">About</a><a href="#" class="footer-link-two">Blog</a></div><div class="footer-block-two"><div class="footer-title">Socials</div><a href="https://www.linkedin.com/company/nexxstudiodesign" target="_blank" class="footer-link-two">LinkedIn</a><a href="https://www.instagram.com/nexxs.tudio/" target="_blank" class="footer-link-two">Instagram</a></div><div class="footer-form w-form"><form id="wf-form-Footer-Form" name="wf-form-Footer-Form" data-name="Footer Form" method="get" class="footer-form-container" data-wf-page-id="67e3f6377d7d0eabb24b16c6" data-wf-element-id="748ad2c9-f08b-a2cd-be75-8f9284d81105"><div class="footer-title">Newsletter</div><div class="footer-form-block"><input class="footer-form-field w-input" maxlength="256" name="Footer-Email-2" data-name="Footer Email 2" aria-label="Get product updates" placeholder="Enter your email address" type="email" id="Footer-Email-2"/><input type="submit" data-wait="Please wait..." class="footer-form-submit w-button" value=""/></div></form><div class="success-message w-form-done"><div>Thank you! Your submission has been received!</div></div><div class="error-message w-form-fail"><div>Oops! Something went wrong while submitting the form.</div></div></div></div><div class="footer-divider-two"></div><div class="footer-bottom"><div class="footer-email"><strong class="bold-text">Contact@nexx-studio.com</strong></div><div class="footer-copyrightnum"><strong class="bold-text-2">(212) 764890065</strong></div><div class="footer-copyrightnum"><strong class="bold-text-2">(86) 15529089193</strong></div><div class="footer-copyright">© 2025 nexxStudio LLC. All rights reserved.</div></div></div></section></div><div data-w-id="c0ebe7fa-1845-4da7-756f-53efc55af6ff" class="scroll-trigger-2"></div></div></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=67e3f6367d7d0eabb24b166b" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/js/webflow.schunk.4a394eb5af8156f2.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/js/webflow.schunk.c2aa238619ecee8d.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/js/webflow.schunk.8919353610d9e96d.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/67e3f6367d7d0eabb24b166b/js/webflow.3de23cd3.b85d6d58afc0299d.js" type="text/javascript"></script></body></html>
